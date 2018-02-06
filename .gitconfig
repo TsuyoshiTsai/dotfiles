@@ -1,0 +1,25 @@
+[core]
+	excludesfile = /Users/minghaotsai/.gitignore_global
+	editor = code --wait
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
+[user]
+	name = minghaotsai
+	email = patrick3948@gmail.com
+
+[alias]
+	a = add
+	co = checkout
+	cb = checkout -b
+	ci = commit
+	cm = commit -m
+	ca = commit -am
+	st = status
+	ss = status -s
+	br = branch

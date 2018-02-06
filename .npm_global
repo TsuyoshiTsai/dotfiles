@@ -1,0 +1,7 @@
+/usr/local/lib
+├── create-react-app@1.5.1
+├── gulp@3.9.1
+├── hexo@3.5.0
+├── npm@5.6.0
+├── vue@2.5.13
+└── vue-cli@2.9.3
