@@ -1,7 +1,7 @@
-POWERLINE_HIDE_HOST_NAME=”true”
-POWERLINE_DISABLE_RPOMPT=”true”
-POWERLINE_FULL_CURRENT_PATH=”true”
-POWERLINE_PATH=”short”
+POWERLINE_HIDE_HOST_NAME="true"
+POWERLINE_DISABLE_RPOMPT="true"
+POWERLINE_FULL_CURRENT_PATH="true"
+POWERLINE_PATH="short"
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
