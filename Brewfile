@@ -15,7 +15,7 @@ mas 'Lightshot Screenshot', id: 526298438
 
 ## IMs
 mas 'LINE', id: 539883307
-cask 'telegram'
+cask 'telegram-desktop'
 cask 'slack'
 cask 'mattermost'
 cask 'teamviewer'
@@ -39,8 +39,8 @@ cask 'the-unarchiver'
 cask 'numi'
 
 ## Browsers
-cask 'caskroom/versions/firefox-developer-edition'
-cask 'caskroom/versions/google-chrome-dev'
+cask 'firefox-developer-edition'
+cask 'google-chrome-dev'
 
 ## Markdown Editor
 cask 'macdown'
