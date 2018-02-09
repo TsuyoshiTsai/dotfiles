@@ -15,7 +15,7 @@ mas 'Lightshot Screenshot', id: 526298438
 
 ## IMs
 mas 'LINE', id: 539883307
-cask 'telegram-desktop'
+cask 'telegram'
 cask 'slack'
 cask 'mattermost'
 cask 'teamviewer'
