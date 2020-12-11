@@ -1,7 +1,5 @@
 /usr/local/lib
-├── create-react-app@1.5.1
-├── gulp@3.9.1
+├── commitizen@4.2.1
+├── cz-conventional-changelog@3.3.0
 ├── hexo@3.5.0
-├── npm@5.6.0
-├── vue@2.5.13
-└── vue-cli@2.9.3
+└── npm@7.0.10

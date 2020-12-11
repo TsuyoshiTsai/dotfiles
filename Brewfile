@@ -1,100 +1,34 @@
-tap 'buo/cask-upgrade'
-tap 'caskroom/cask'
-
-tap 'homebrew/core'
-tap 'homebrew/bundle'
-
-brew 'mas'
-
-# Basic Softwares 
-## Notes
-mas 'Bear', id: 1091189122
-
-## Screen Shot
-mas 'Lightshot Screenshot', id: 526298438
-
-## IMs
-mas 'LINE', id: 539883307
-cask 'telegram'
-cask 'slack'
-cask 'mattermost'
-cask 'teamviewer'
-
-## Video Players
-cask 'vlc'
-
-## Password Manager
-cask '1password'
-
-## Spotlight
-cask 'alfred'
-
-## APP Cleaner
-cask 'appcleaner'
-
-## Unarchiver
-cask 'the-unarchiver'
-
-## Currency Converter
-cask 'numi'
-
-## Browsers
-cask 'firefox-developer-edition'
-cask 'google-chrome-dev'
-
-## Markdown Editor
-cask 'macdown'
-cask 'typora'
-
-## Mind Mapping
-cask 'xmind'
-
-## Music
-cask 'spotify'
-
-## Cloud Drive
-cask 'google-backup-and-sync'
-
-## Screen Saver
-cask 'aerial'
-
-
-# Design Tools
-cask 'sketch'
-cask 'zeplin'
-
-
-# Development Tools
-## Terminal Tool
-brew 'tree'
-brew 'zsh-completions'
-brew 'zsh-autosuggestions'
-brew 'zsh-syntax-highlighting'
-
-## Git
-brew 'git'
-
-## Languages
-brew 'vim'
-brew 'python3'
-brew 'node'
-
-## Package Manager
-brew 'yarn', args: ["without-node"]
-
-## Terminals
-cask 'iterm2'
-
-## Git Tools
-cask 'sourcetree'
-cask 'gitkraken'
-
-## Editor
-cask 'visual-studio-code'
-
-## Database Client
-cask 'sequel-pro'
-
-## Docker
-cask 'docker'
-cask 'docker-toolbox'
+tap "buo/cask-upgrade"
+tap "caskroom/cask"
+tap "caskroom/fonts"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "git"
+brew "git-flow-avh"
+brew "mas"
+brew "node"
+brew "openssl@1.1"
+brew "python@3.9", link: false
+brew "tree"
+brew "vim"
+brew "zsh-autosuggestions"
+brew "zsh-completions"
+brew "zsh-syntax-highlighting"
+cask "1password"
+cask "app-cleaner"
+cask "font-fira-code"
+cask "google-backup-and-sync"
+cask "google-chrome"
+cask "homebrew/cask-versions/firefox-developer-edition"
+cask "iterm2"
+cask "postman"
+cask "skype"
+cask "spotify"
+cask "sourcetree"
+cask "telegram"
+cask "visual-studio-code"
+cask "zeplin"
+mas "Bear", id: 1091189122
+mas "Lightshot Screenshot", id: 526298438
+mas "LINE", id: 539883307
